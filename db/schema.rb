@@ -35,9 +35,6 @@ ActiveRecord::Schema.define(version: 20140905092352) do
     t.integer "user_id"
   end
 
-  create_table "testing", force: true do |t|
-  end
-
   create_table "users", force: true do |t|
     t.string "username"
   end
